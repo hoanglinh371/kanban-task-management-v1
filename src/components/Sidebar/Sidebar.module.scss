@@ -1,0 +1,32 @@
+.container {
+  height: 100%;
+}
+
+.logo-container {
+  height: 96px;
+  padding-left: 32px;
+  padding-top: 32px;
+}
+
+.menu {
+  padding-left: 0;
+  padding-right: 24px;
+}
+
+.menu-item {
+  padding: 16px 32px;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+
+  .menu-item-link {
+    color: var(--medium-grey);
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &.active {
+    background-color: var(--main-purple);
+    color: var(--white);
+  }
+}
